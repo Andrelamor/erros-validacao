@@ -1,0 +1,15 @@
+name: site-publish
+
+on: [push]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          python-version: '3.9'
+      - run: chmod +x build.sh
+      - run: pip install -r requirements.txt
+      - run: ./build.sh

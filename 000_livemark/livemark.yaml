@@ -1,0 +1,35 @@
+brand:
+  text: Erros de Validação
+about:
+  text: lista de erros mais comuns na validação de dados com padrão Frictionless
+github:
+  user: andrelamor
+  repo: erros-validacao
+topics:
+  selector: h2
+site:
+  favicon: 000_livemark/assets/images/favicon.ico
+  styles:
+    - 000_livemark/assets/stylesheets/style.css
+  scripts:
+    - 000_livemark/assets/stylesheets/script.js
+pages:
+  items:
+    - path: erros-validacao/001_metadados/
+    - name: Metadados
+      items:
+        - path: erros-validacao/001_metadados/datapackage-propriedades
+        - path: erros-validacao/001_metadados/datapackage-sintaxe
+    - path: erros-validacao/002_dados/
+    - name: Dados
+      items:
+        - path: erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados
+        - path: erros-validacao/002_dados/002_delimitadores/delimitadores
+        - path: erros-validacao/002_dados/003_encoding/encoding
+
+links:
+  items:
+    - name: Frictionless
+      path: https://frictionlessdata.io
+    - name: Livemark
+      path: https://livemark.frictionlessdata.io
