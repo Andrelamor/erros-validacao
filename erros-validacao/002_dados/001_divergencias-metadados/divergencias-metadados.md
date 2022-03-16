@@ -1,6 +1,4 @@
-## Formatos de data
-
-
+# Formatos de data
 
 ## Dado obrigatório ausente
 

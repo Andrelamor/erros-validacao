@@ -15,12 +15,10 @@ site:
     - 000_livemark/assets/stylesheets/script.js
 pages:
   items:
-    - path: erros-validacao/001_metadados/
     - name: Metadados
       items:
         - path: erros-validacao/001_metadados/datapackage-propriedades
         - path: erros-validacao/001_metadados/datapackage-sintaxe
-    - path: erros-validacao/002_dados/
     - name: Dados
       items:
         - path: erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados

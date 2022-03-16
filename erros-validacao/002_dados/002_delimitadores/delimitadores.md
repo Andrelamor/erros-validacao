@@ -1,4 +1,4 @@
-## Delimitadores
+# Delimitadores
 
 Valores fora dos campos delimitadores (, ou ;):
 

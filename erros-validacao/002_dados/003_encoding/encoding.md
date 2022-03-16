@@ -1,4 +1,4 @@
-## Arquivo de dados sem encoding `utf-8` 
+# Arquivo de dados sem encoding `utf-8`
 
 a. encoding Western, Latin, Windows...
 

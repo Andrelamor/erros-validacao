@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="It's a template document created automatically to introduce Livemark. We will list here core [Livemark](https://livemark.frictionlessdata.io/) features and you can play with theme live editing the document. It's possible to use any standard Markdown features as well.">
-<meta name="keywords" content="butiquin,pai-ta-on">
-<link rel="icon" href="assets/images/favicon.ico">
-<title>Butiquin Pai-ta-on | Erros de Validação</title>
+<meta name="description" content="Faltou abrir ou fechar algum campo com aspas, &quot;&quot;, colchetes '[ ]' ou chaves '{ }'">
+<meta name="keywords" content="datapackage,sintaxe">
+<link rel="icon" href="../../000_livemark/assets/images/favicon.ico">
+<title>Datapackage Sintaxe | Erros de Validação</title>
 <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://unpkg.com/prismjs@1.23.0/themes/prism.css">
@@ -1795,7 +1795,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-brand">
   <ul>
     <li>
-      <a class="active" href="..">
+      <a class="active" href="../..">
         Erros de Validação
       </a>
     </li>
@@ -1804,18 +1804,18 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 
 <div id="livemark-pages">
   <ul class="primary">
-        <li class="primary group ">
+        <li class="primary group active">
       <a href="" class="primary">
         Metadados
       </a>
             <ul class="secondary">
                 <li class="secondary ">
-          <a href="../erros-validacao/001_metadados/datapackage-propriedades.html" class="secondary">
+          <a href="datapackage-propriedades.html" class="secondary">
             Propriedades Datapackage
           </a>
         </li>
-                <li class="secondary ">
-          <a href="../erros-validacao/001_metadados/datapackage-sintaxe.html" class="secondary">
+                <li class="secondary active">
+          <a href="datapackage-sintaxe.html" class="secondary">
             Datapackage Sintaxe
           </a>
         </li>
@@ -1827,17 +1827,17 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
       </a>
             <ul class="secondary">
                 <li class="secondary ">
-          <a href="../erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados.html" class="secondary">
+          <a href="../002_dados/001_divergencias-metadados/divergencias-metadados.html" class="secondary">
             Formatos de data
           </a>
         </li>
                 <li class="secondary ">
-          <a href="../erros-validacao/002_dados/002_delimitadores/delimitadores.html" class="secondary">
+          <a href="../002_dados/002_delimitadores/delimitadores.html" class="secondary">
             Delimitadores
           </a>
         </li>
                 <li class="secondary ">
-          <a href="../erros-validacao/002_dados/003_encoding/encoding.html" class="secondary">
+          <a href="../002_dados/003_encoding/encoding.html" class="secondary">
             Arquivo de dados sem encoding `utf-8`
           </a>
         </li>
@@ -1854,53 +1854,57 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
 <div id="livemark-main">
 <div id="livemark-notes">
   Written in <a href="https://livemark.frictionlessdata.io" target="_blank"> Livemark </a><br>
-  (2022-03-16 10:57)
+  (2022-03-16 11:13)
 </div>
 
-<h1>Butiquin Pai-ta-on</h1>
-<p><a href="https://github.com/frictionless000_livemark/data/livemark-project/actions"><img src="https://img.shields.io/github/workflow/status/frictionless000_livemark/data/livemark-project/general/main" alt="Build"></a>
-<a href="https://github.com/frictionlessdata/livemark-project"><img src="https://img.shields.io/badge/codebase-github-brightgreen" alt="Codebase"></a>
-<a href="https://discord.com/channels/695635777199145130/695635777199145133"><img src="https://img.shields.io/badge/support-discord-brightgreen" alt="Support"></a></p>
-<blockquote>
-<p>Edit <code>index.md</code> file to explore Livemark's features or just remove everything to start from a scratch.</p>
-</blockquote>
-<p>It's a template document created automatically to introduce Livemark. We will list here core <a href="https://livemark.frictionlessdata.io/">Livemark</a> features and you can play with theme live editing the document. It's possible to use any standard Markdown features as well.</p>
-<h2>Markup</h2>
-<p>Markdown is not enough? Finally, let's add some markup with <a href="https://getbootstrap.com/">Bootstrap</a>:</p>
-<div style="max-width: 600px">
-<div class="container">
-<div class="row">
-<div class="col-sm">
-  <div class="livemark-markdown"><p><img src="https://livemark.frictionlessdata.io/assets/data-package.png" alt="Package"></p>
-</div>
-  <div class="text-center">
-  <p><strong>Data Package</strong></p>
-  <p>A simple container format for describing a coherent collection of data in a single package.</p>
-  </div>
-</div>
-<div class="col-sm">
-  <div class="livemark-markdown"><p><img src="https://livemark.frictionlessdata.io/assets/data-resource.png" alt="Resource"></p>
-</div>
-  <div class="text-center">
-  <p><strong>Data Resource</strong></p>
-  <p>A simple format to describe and package a single data resource such as a individual table or file.</p>
-  </div>
-</div>
-<div class="col-sm">
-  <div class="livemark-markdown"><p><img src="https://livemark.frictionlessdata.io/assets/table-schema.png" alt="Schema"></p>
-</div>
-  <div class="text-center">
-  <p><strong>Table Schema</strong></p>
-  <p>A simple format to declare a schema for tabular data. The schema is designed to be expressible in JSON.</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
+<h1>Datapackage Sintaxe</h1>
+<h2>Aspas, colchetes e chaves</h2>
+<p>Faltou abrir ou fechar algum campo com aspas, "", colchetes '[ ]' ou chaves '{ }'</p>
+<pre><code class="language-$"># -------
+# invalid: datapackage.json
+# -------
+=============  ===================================================================================================================================
+code           message                                                          
+=============  ===================================================================================================================================
+package-error  The data package has an error: cannot extract metadata "datapackage.json" because "Expecting value: line 101 column 28 (char 3812)"
+=============  ===================================================================================================================================
+</code></pre>
+<p><img src="static/sintaxe2-datapackage-frictionless.png" alt=""></p>
+<p><img src="static/sintaxe2-datapackage.png" alt=""></p>
+<ul>
+<li>Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)</li>
+</ul>
+<h2>Vírgulas</h2>
+<p>Faltou ou sobrou alguma vírgula</p>
+<pre><code class="language-$"># -------
+# invalid: datapackage.json
+# -------
+=============  ==========================================================================================================================================
+code           message                                                          
+=============  ==========================================================================================================================================
+package-error  The data package has an error: cannot extract metadata "datapackage.json" because "Expecting ',' delimiter: line 96 column 11 (char 3621)"
+=============  ==========================================================================================================================================
+
+</code></pre>
+<p><img src="static/sintaxe-datapackage-frictionless.png" alt=""></p>
+<p><img src="static/sintaxe-datapackage.png" alt=""></p>
+<ul>
+<li>Solução: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que também podem fazer marcações visuais de erros de sintaxe)</li>
+</ul>
 
 <div id="livemark-signs">
   <div>
-          </div>
+        <div class="next">
+      <a href="../002_dados/001_divergencias-metadados/divergencias-metadados.html">
+        Formatos de data »
+      </a>
+    </div>
+            <div class="prev">
+      <a href="datapackage-propriedades.html">
+        « Propriedades Datapackage
+      </a>
+    </div>
+      </div>
 </div>
 </div>
 <div id="livemark-right">
@@ -1939,7 +1943,7 @@ body:not(.with-readability) #livemark-right::-webkit-scrollbar {
       </a>
     </li>
         <li>
-      <a href="https://github.com/andrelamor/erros-validacao/edit/main/000_livemark/index.md" target="_blank">
+      <a href="https://github.com/andrelamor/erros-validacao/edit/main/erros-validacao/001_metadados/datapackage-sintaxe.md" target="_blank">
         Edit
       </a>
     </li>
@@ -2291,31 +2295,31 @@ document.addEventListener("DOMContentLoaded", function () {
           'erros-validacao/001_metadados/datapackage-propriedades': {
           'name': 'Propriedades Datapackage',
           'path': 'erros-validacao/001_metadados/datapackage-propriedades',
-          'relpath': '../erros-validacao/001_metadados/datapackage-propriedades',
+          'relpath': 'datapackage-propriedades',
           'text': "# Propriedades Datapackage ## Nome do recurso Valor da propriedade `name` do recurso cont\u00e9m caracteres fora da faixa permitida: ````$ frictionless validate datapackage.json # ------- # invalid: datapackage.json # ------- ============= ================================================================================================================================================================================================================ code message ============= ================================================================================================================================================================================================================ package-error The data package has an error: \"\u0027doa\u2592\u2592es-comodatos-amigo-estado-mg\u0027 does not match \u0027^([-a-z0-9._/])+$\u0027\" at \"resources/0/name\" in metadata and at \"properties/resources/items/properties/name/pattern\" in profile ============= ================================================================================================================================================================================================================ ```` ![](static/name.png) * Solu\u00e7\u00e3o: corrigir a propriedade `name` contendo [especifica\u00e7\u00f5es leg\u00edveis por m\u00e1quina](https://specs.frictionlessdata.io/data-resource/#metadata-properties) (i.e. letras min\u00fasculas, sem espa\u00e7os, sem caracteres especiais) ## Caminho `path` **i. onde se localizam os arquivos de dados:** ````$ frictionless validate datapackage.json # ------- # invalid: doacoes-comodatos-amigo-estado-mg.csv # ------- === ===== ============ ============================================================================================================================== row field code message === ===== ============ ============================================================================================================================== scheme-error The data source could not be successfully loaded: [Errno 2] No such file or directory: \u0027doacoes-comodatos-amigo-estado-mg.csv\u0027 === ===== ============ ============================================================================================================================== ```` ![](static/path-frictionless.png) ![](static/path.png) * Solu\u00e7\u00e3o: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o recurso, ou corrigindo o nome do recurso, se for o caso **ii. onde se localizam os arquivos de metadados `datapackage.json`, o `schema.json`, ou o `dialect.json`** ````$ frictionless validate datapackage.json # ------- # invalid: datapackage.json # ------- ============ ======================================================================================================================= code message ============ ======================================================================================================================= schema-error Schema is not valid: cannot extract metadata \"schema.json\" because \"[Errno 2] No such file or directory: \u0027schema.json\u0027\" ============ ======================================================================================================================= ```` ![](static/path-schema-frictionless.png) ![](static/path-schema.png) * Solu\u00e7\u00e3o: corrigir o valor da propriedade `path` incorporando o nome da pasta ou URL onde se localiza o `schema` ou `dialect`, ou corrigindo seu nome, se for o caso ## Propriedade `owner_org` (DPCKAN) Datapackage sem a propriedade `owner_org` obrigat\u00f3ria ou grafada incorretamente ( h\u00edfen\u0027-\u0027 em vez de underline \"_\")",
       },
           'erros-validacao/001_metadados/datapackage-sintaxe': {
           'name': 'Datapackage Sintaxe',
           'path': 'erros-validacao/001_metadados/datapackage-sintaxe',
-          'relpath': '../erros-validacao/001_metadados/datapackage-sintaxe',
+          'relpath': 'datapackage-sintaxe',
           'text': "# Datapackage Sintaxe ## Aspas, colchetes e chaves Faltou abrir ou fechar algum campo com aspas, \"\", colchetes \u0027[ ]\u0027 ou chaves \u0027{ }\u0027 ````$ frictionless validate datapackage.json # ------- # invalid: datapackage.json # ------- ============= =================================================================================================================================== code message ============= =================================================================================================================================== package-error The data package has an error: cannot extract metadata \"datapackage.json\" because \"Expecting value: line 101 column 28 (char 3812)\" ============= =================================================================================================================================== ```` ![](static/sintaxe2-datapackage-frictionless.png) ![](static/sintaxe2-datapackage.png) * Solu\u00e7\u00e3o: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que tamb\u00e9m podem fazer marca\u00e7\u00f5es visuais de erros de sintaxe) ## V\u00edrgulas Faltou ou sobrou alguma v\u00edrgula ````$ frictionless validate datapackage.json # ------- # invalid: datapackage.json # ------- ============= ========================================================================================================================================== code message ============= ========================================================================================================================================== package-error The data package has an error: cannot extract metadata \"datapackage.json\" because \"Expecting \u0027,\u0027 delimiter: line 96 column 11 (char 3621)\" ============= ========================================================================================================================================== ```` ![](static/sintaxe-datapackage-frictionless.png) ![](static/sintaxe-datapackage.png) * Solu\u00e7\u00e3o: corrigir a sintaxe do arquivo datapackage.json na linha indicada pela mensagem de erro, utilizando o editor de texto ou o editor de arquivos do github (que tamb\u00e9m podem fazer marca\u00e7\u00f5es visuais de erros de sintaxe)",
       },
           'erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados': {
           'name': 'Formatos de data',
           'path': 'erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados',
-          'relpath': '../erros-validacao/002_dados/001_divergencias-metadados/divergencias-metadados',
+          'relpath': '../002_dados/001_divergencias-metadados/divergencias-metadados',
           'text': "# Formatos de data ## Dado obrigat\u00f3rio ausente ````$ frictionless validate datapackage.json # ------- # invalid: data/doacoes-comodatos-amigo-estado-mg.csv # ------- === ===== ========== ================================================================================================= row field code message === ===== ========== ================================================================================================= 51 9 type-error Type error in the cell \"\" in row \"51\" and field \"VALOR\" at position \"9\": type is \"number/default\" === ===== ========== ================================================================================================= ```` ![](static/dado-ausente-frictionless.png) ```` { \"name\": \"VALOR\", \"type\": \"number\", \"format\": \"default\", \"title\": \"Valor\", \"description\": \"Valor estimado do bem ou servi\u00e7o doado ou oferecido em comodato. Pode ser em moeda nacional ou estrangeira.\", \"groupChar\": \".\", \"decimalChar\": \",\" } ] \"missingValues\": [ \"NA\" ] ```` ![](static/dado-ausente.png) * Solu\u00e7\u00e3o: completar o valor ausente indicado no arquivo do recurso. Se ele n\u00e3o for obrigat\u00f3rio, aplicar \u0027NA\u0027 na c\u00e9lula indicada no arquivo do recurso ## Valor num\u00e9rico n\u00e3o inteiro - faltou informar os separadores de milhar (groupChar) e decimais (decimalChar): ````$ frictionless validate datapackage.json # ------- # invalid: data/doacoes-comodatos-amigo-estado-mg.csv # ------- === ===== ========== ============================================================================================================= row field code message === ===== ========== ============================================================================================================= 2 9 type-error Type error in the cell \"300.000,00\" in row \"2\" and field \"VALOR\" at position \"9\": type is \"number/default\" 3 9 type-error Type error in the cell \"220.000,00\" in row \"3\" and field \"VALOR\" at position \"9\": type is \"number/default\" 4 9 type-error Type error in the cell \"347.000,00\" in row \"4\" and field \"VALOR\" at position \"9\": type is \"number/default\" ```` ![](static/number-default-frictionless.png) ![](static/number-default.png) * Solu\u00e7\u00e3o: aplicar as propriedades de separador de milhar `groupChar` e/ou separador de decimais `decimalChar`, sempre quando o valor num\u00e9rico utilizar essa grafia. Alterar o valor da propriedade `type` de `integer` para `number`: ```` \"type\": \"number\", \"format\": \"default\", \"title\": \"Valor\", \"groupChar\": \".\", \"decimalChar\": \",\" ```` ## Valor fora das caracter\u00edsticas informadas a. type-error ````$ frictionless validate datapackage.json # ------- # invalid: data/doacoes-comodatos-amigo-estado-mg.csv # ------- === ===== ========== ======================================================================================================= row field code message === ===== ========== ======================================================================================================= 2 9 type-error Type error in the cell \"300000%\" in row \"2\" and field \"VALOR\" at position \"9\": type is \"number/default\" === ===== ========== ======================================================================================================= ```` ![](static/valor-fora-frictionless.png) ![](static/valor-fora.png) * Solu\u00e7\u00e3o: alterar os valores no arquivo do recurso, observando as caracter\u00edsticas das vari\u00e1veis num\u00e9ricas indicadas no `datapackage.json`. Caso o problema tenha sido na descri\u00e7\u00e3o do dado, alterar as propriedades necess\u00e1rias no `datapackage.json` b. constraint-error - pattern ```` $ frictionless validate datapackage.json # ------- # invalid: data/doacoes-comodatos-amigo-estado-mg.csv # ------- === ===== ================ ============================================================================================================================================== row field code message === ===== ================ ============================================================================================================================================== 2 10 constraint-error The cell \"R$\" in row at position \"2\" and field \"MOEDA\" at position \"10\" does not conform to a constraint: constraint \"pattern\" is \"^[A-Z]{3}$\" === ===== ================ ============================================================================================================================================== ```` ![](static/valor2-fora-frictionless.png) ![](static/valor2-fora.png) * Solu\u00e7\u00e3o: alterar os valores no arquivo do recurso, observando as caracter\u00edsticas das vari\u00e1veis indicadas no `datapackage.json`. Caso o problema tenha sido na descri\u00e7\u00e3o do dado, alterar as propriedades necess\u00e1rias no `datapackage.json`",
       },
           'erros-validacao/002_dados/002_delimitadores/delimitadores': {
           'name': 'Delimitadores',
           'path': 'erros-validacao/002_dados/002_delimitadores/delimitadores',
-          'relpath': '../erros-validacao/002_dados/002_delimitadores/delimitadores',
+          'relpath': '../002_dados/002_delimitadores/delimitadores',
           'text': "# Delimitadores Valores fora dos campos delimitadores (, ou ;): ```` $ frictionless validate datapackage.json # ------- # invalid: datapackage.json # ------- ========== ====================================== code message ========== ====================================== task-error The task has an error: \u0027fieldPosition\u0027 ========== ====================================== ```` ![](static/escaping-frictionless.png) ![](static/escaping.png) * Solu\u00e7\u00e3o: verificar se colunas de texto cont\u00eam \u0027,\u0027 e/ou \u0027;\u0027 que possam estar sendo interpretados como delimitadores de coluna. Delimitar os valores das colunas de texto em suas respsectivas c\u00e9lulas, utilizando aspas no editor de `csv`)",
       },
           'erros-validacao/002_dados/003_encoding/encoding': {
           'name': 'Arquivo de dados sem encoding `utf-8`',
           'path': 'erros-validacao/002_dados/003_encoding/encoding',
-          'relpath': '../erros-validacao/002_dados/003_encoding/encoding',
+          'relpath': '../002_dados/003_encoding/encoding',
           'text': "# Arquivo de dados sem encoding `utf-8` a. encoding Western, Latin, Windows... b. encoding UTF-8 sem Byte Order Mask (BOM) ![](static/bom.png) ![](static/bom-comparado.png) * Solu\u00e7\u00e3o: gerar o arquivo `csv` com o BOM. No editor de texto Sublime, \u0027Save with Encoding --\u003e UTF-8 with BOM\u0027",
       },
       };
